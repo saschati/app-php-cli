@@ -10,7 +10,7 @@ This action run pph-cli with install composer and any library.
 
 ### `dir`
 
-The directory where your composer.json is located. Default `./`
+The directory where your composer.json is located. Default `''`
 
 ## Example usage
 ```
