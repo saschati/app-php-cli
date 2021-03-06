@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-cd /github/workspace && composer install && $1
+cd $GITHUB_WORKSPACE/$INPUT_DIR && composer install && $($INPUT_COMMAD)
