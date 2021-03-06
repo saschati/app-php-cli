@@ -17,4 +17,5 @@ The directory where your composer.json is located. Default `./`
 uses: saschati/app-php-cli
 with:
   command: 'composer validate'
+  dir: src
 ```
