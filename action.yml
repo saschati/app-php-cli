@@ -4,6 +4,9 @@ author: 'Olexander Grigorchyk'
 inputs:
   command:
     description: 'The command how need run in action with install composer'
+  dir:
+    description: 'The directory where your composer.json is located'
+    default: './'
 runs:
   using: 'docker'
   image: 'Dockerfile'

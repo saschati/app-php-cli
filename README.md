@@ -8,6 +8,10 @@ This action run pph-cli with install composer and any library.
 
 **Required** Write command how do uses in action.
 
+### `dir`
+
+The directory where your composer.json is located. Default `./`
+
 ## Example usage
 ```
 uses: saschati/app-php-cli
