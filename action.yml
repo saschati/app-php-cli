@@ -1,0 +1,9 @@
+name: 'Run php-cli'
+description: 'Github Action run php-cli with installed composer'
+author: 'Olexander Grigorchyk'
+inputs:
+  command:
+    description: 'The command how need run in action with install composer'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
